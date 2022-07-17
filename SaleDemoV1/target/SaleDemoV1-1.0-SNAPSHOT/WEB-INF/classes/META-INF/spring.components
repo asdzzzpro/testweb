@@ -1,0 +1,2 @@
+com.mycompany.configs.WebAppContextConfig=org.springframework.stereotype.Component
+com.mycompany.controllers.IndexController=org.springframework.stereotype.Component
