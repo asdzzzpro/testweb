@@ -1,2 +1,17 @@
+com.mycompany.configs.HibernateConfig=org.springframework.stereotype.Component
 com.mycompany.configs.WebAppContextConfig=org.springframework.stereotype.Component
 com.mycompany.controllers.IndexController=org.springframework.stereotype.Component
+com.mycompany.pojo.Category=javax.persistence.Entity,javax.persistence.Table,javax.xml.bind.annotation.XmlRootElement,javax.persistence.NamedQueries
+com.mycompany.pojo.Category_=javax.annotation.Generated,javax.persistence.metamodel.StaticMetamodel
+com.mycompany.pojo.OrderDetail=javax.persistence.Entity,javax.persistence.Table,javax.xml.bind.annotation.XmlRootElement,javax.persistence.NamedQueries
+com.mycompany.pojo.OrderDetail_=javax.annotation.Generated,javax.persistence.metamodel.StaticMetamodel
+com.mycompany.pojo.Product=javax.persistence.Entity,javax.persistence.Table,javax.xml.bind.annotation.XmlRootElement,javax.persistence.NamedQueries
+com.mycompany.pojo.Product_=javax.annotation.Generated,javax.persistence.metamodel.StaticMetamodel
+com.mycompany.pojo.SaleOrder=javax.persistence.Entity,javax.persistence.Table,javax.xml.bind.annotation.XmlRootElement,javax.persistence.NamedQueries
+com.mycompany.pojo.SaleOrder_=javax.annotation.Generated,javax.persistence.metamodel.StaticMetamodel
+com.mycompany.pojo.User=javax.persistence.Entity,javax.persistence.Table,javax.xml.bind.annotation.XmlRootElement,javax.persistence.NamedQueries
+com.mycompany.pojo.User_=javax.annotation.Generated,javax.persistence.metamodel.StaticMetamodel
+com.mycompany.repository.impl.CategoryRepositoryImpl=org.springframework.stereotype.Component
+com.mycompany.repository.impl.ProductRepositoryImpl=org.springframework.stereotype.Component
+com.mycompany.service.impl.CategoryServiceImpl=org.springframework.stereotype.Component
+com.mycompany.service.impl.ProductServiceImpl=org.springframework.stereotype.Component
